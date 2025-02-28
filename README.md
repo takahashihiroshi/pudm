@@ -16,7 +16,7 @@ Please read [LICENCE.md](LICENCE.md) before reading or using the files.
 
 ## Datasets
 - MNIST, CIFAR10, STL10, and CelebA will be downloaded when first used.
-- For Stable Diffusion experiments, please generate images of Brad Pitt and middle-aged men using Stable Diffusion and organize them into folders as follows.
+- For Stable Diffusion experiments, please generate images of Brad Pitt and middle-aged men using Stable Diffusion and organize them into folders as follows:
 ```
 datasets/middle_aged_man100
 ├── 0_unlabeled
