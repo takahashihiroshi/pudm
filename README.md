@@ -11,7 +11,7 @@ Please read [LICENCE.md](LICENCE.md) before reading or using the files.
 
 
 ## Prerequisites
-- Please see `requirements.txt`
+- Please see [requirements.txt](requirements.txt)
 
 
 ## Datasets
