@@ -32,8 +32,8 @@ datasets/middle_aged_man100
 ## Usage
 - Please run the following scripts:
   - `main.py`: for from-scratch training
-  - `main-ft.py`: for fine-tuning pre-trained models
-  - `main-sd.py`: for fine-tuning stable diffusion models
+  - `main_ft.py`: for fine-tuning pre-trained models
+  - `main_sd.py`: for fine-tuning stable diffusion models
 
 
 ### for from-scratch training
@@ -58,7 +58,7 @@ usage: main.py [-h] [--config_name CONFIG_NAME] [--algorithm ALGORITHM]
 
 ### for fine-tuning pre-trained models
 ```
-usage: main-ft.py [-h] [--config_name CONFIG_NAME] [--algorithm ALGORITHM]
+usage: main_ft.py [-h] [--config_name CONFIG_NAME] [--algorithm ALGORITHM]
                   [--beta BETA] [--seed SEED]
 ```
 - You can choose the `config_name` from following configurations: 
@@ -76,7 +76,7 @@ usage: main-ft.py [-h] [--config_name CONFIG_NAME] [--algorithm ALGORITHM]
 
 ### for fine-tuning stable diffusion models
 ```
-usage: main-sd.py [-h] [--algorithm ALGORITHM] [--beta BETA] [--seed SEED]
+usage: main_sd.py [-h] [--algorithm ALGORITHM] [--beta BETA] [--seed SEED]
 ```
 - You can choose the `algorithm` from following algorithms:
   - `Unsupervised`: Unsupervised diffusion models
